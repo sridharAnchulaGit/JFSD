@@ -1,0 +1,84 @@
+.full-height {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 30px;
+    background: rgb(220, 104, 2);
+    line-height: 30px;
+    color: white;
+}
+
+.content1 {
+  height: calc(100% - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 30px;
+    background: rgb(2, 220, 27);
+    color: white;
+    font-size: 7pt;
+    line-height: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .about-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-page p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  #learnMoreBtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.125rem;
+    margin: 1rem auto;
+    cursor: pointer;
+  }
+  .btn1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.125rem;
+    margin: 1rem auto;
+    cursor: pointer;
+  }
+  #btn1:hover {
+    background-color: #3e8e41;
+  }
